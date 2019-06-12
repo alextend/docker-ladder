@@ -9,12 +9,18 @@ __缺点：__
 1. 无法同时运行两套账号管理系统。
 
 
+## 运行环境
+```
+Ubuntu 16.04/bash
+```
+
+
 ## 安装方法
 ```
-git clone install.sh
-sudo chmod +x install.sh
 
-./install.sh
+curl -O https://raw.githubusercontent.com/alextend/docker-ladder/master/install.sh && chmod +x install.sh && ./install.sh
+或
+curl -sSL https://raw.githubusercontent.com/alextend/docker-ladder/master/install.sh | bash
 
 ```
 
