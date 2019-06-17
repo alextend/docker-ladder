@@ -142,4 +142,10 @@ EOF
 sudo chmod 755 /etc/init.d/ssrweb-start
 sudo update-rc.d ssrweb-start defaults
 
+sudo systemctl enable wgweb-start.service
+sudo systemctl enable ssrweb-start.service
+
+sudo systemctl enable wg-quick@.service
+sudo systemctl enable ssh.socket
+
 
