@@ -27,7 +27,7 @@ sysctl -w net.ipv6.conf.all.forwarding=1
 
 echo 1 > /proc/sys/net/ipv4/ip_forward
 echo "net.ipv4.ip_forward = 1" > /etc/sysctl.conf   
-echo "net.ipv6.conf.all.forwarding=1" > /etc/sysctl.conf    
+echo "net.ipv6.conf.all.forwarding=1" >> /etc/sysctl.conf    
 
 
 
