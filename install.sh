@@ -16,7 +16,7 @@ sudo apt-get install -y \
     docker-ce docker-ce-cli containerd.io docker-compose
 
 apt-get remove -y dnsmasq
-echo nameserver 1.1.1.1 >/etc/resolv.conf
+echo "nameserver 1.1.1.1" >/etc/resolv.conf
 
 modprobe wireguard
 modprobe iptable_nat
