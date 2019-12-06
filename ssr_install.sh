@@ -16,16 +16,15 @@ sudo apt-get install -y \
 
 
 
-read -p "please input ssr server ip:" ssr_server_ip
-read -p "please input ssr server port begin:" ssr_server_port_begin
-read -p "please input ssr server port end:" ssr_server_port_end
+read -p "Please input ssr server ip:" ssr_server_ip
+read -p "Please input ssr server port begin:" ssr_server_port_begin
+read -p "Please input ssr server port end:" ssr_server_port_end
 
-read -p "please input ssr web domain:" ignite_domain
-read -p "please input ssr manage web domain:" ignite_admin_domain
-read -p "please input ssr admin name:" ignite_admin_name
-read -p "please input ssr admin password:" ignite_admin_pwd
-read -p "please input ssr auth secret:" ignite_admin_auth_secret
-read -p "please input wireguard manage web domain:" subspace_domain
+read -p "Please input ssr web domain:" ignite_domain
+read -p "Please input ssr manage web domain:" ignite_admin_domain
+read -p "Please input ssr admin name:" ignite_admin_name
+read -p "Please input ssr admin password:" ignite_admin_pwd
+read -p "Please input ssr auth secret:" ignite_admin_auth_secret
 
 sudo mkdir -p /ladder/ssr/
 
