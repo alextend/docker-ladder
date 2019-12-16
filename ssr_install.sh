@@ -80,8 +80,7 @@ sudo cat > /etc/init.d/ssrweb-start <<-EOF
 # Short-Description:	ssrweb-start
 ### END INIT INFO
 
-sudo docker stop subspace
-
+sudo docker-compose -f /ladder/ssr/docker-compose.yml down
 sudo docker-compose -f /ladder/ssr/docker-compose.yml up -d
 
 EOF
