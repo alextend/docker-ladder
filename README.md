@@ -16,11 +16,18 @@ Ubuntu 16.04/bash
 
 
 ## 安装方法
+
+> 双管理系统安装
+
+```
+curl -O https://raw.githubusercontent.com/alextend/docker-ladder/master/install.sh && chmod +x install.sh && ./install.sh
+
 ```
 
-curl -O https://raw.githubusercontent.com/alextend/docker-ladder/master/install.sh && chmod +x install.sh && ./install.sh
-或
-curl -sSL https://raw.githubusercontent.com/alextend/docker-ladder/master/install.sh | bash
+> ssr管理系统安装
+
+```
+curl -O https://raw.githubusercontent.com/alextend/docker-ladder/master/ssr_install.sh && chmod +x ssr_install.sh && ./ssr_install.sh
 
 ```
 
