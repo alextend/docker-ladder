@@ -95,6 +95,8 @@ docker create \
 --volume /usr/bin/wg:/usr/bin/wg \
 --volume /ladder/wireguard/data:/data \
 --env SUBSPACE_HTTP_HOST=$subspace_domain \
+--env SUBSPACE_LETSENCRYPT=false \
+--env SUBSPACE_HTTP_INSECURE=true \
     subspacecloud/subspace:latest
 
 sudo cat > /etc/init.d/wgweb-start <<-EOF
